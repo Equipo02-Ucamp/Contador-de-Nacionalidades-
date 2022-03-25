@@ -2,6 +2,7 @@
 
 function contar(ciudadanos){
     const map = new Map();
+    
     for(let i =0; i<ciudadanos.length; i++){
         if(!map.has(ciudadanos[i])){
             map.set(ciudadanos[i],1)
@@ -14,4 +15,4 @@ function contar(ciudadanos){
     })
 }
 
-contar(['Mexicano','Mexicano','Chile','Chile','Chile'])
+contar(['mexicano','mexicano','chile','chile','chile','brazil','mexicano'])
